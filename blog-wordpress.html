@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rapport de stage - Philippe TANKOV</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/skins/pink.css" type="text/css">
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" class="alternate-style" title="pink" href="css/skins/pink.css" type="text/css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="blue" href="css/skins/blue.css" type="text/css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="orange" href="css/skins/orange.css" type="text/css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="yellow" href="css/skins/yellow.css" type="text/css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="green" href="css/skins/green.css" type="text/css" disabled>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300, 400, 500, 700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Roboto+Mono:ital,wght@1,200&family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styleSwitcher.css" type="text/css">
+    <script src="https://kit.fontawesome.com/7b56ccf840.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Conteneur Principal START -->
+    <div class="main-container">
+        <!-- Menu sur le coté -->
+        <div class="aside">
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <div class="aside-inner">
+                <!-- Logo du site -->
+                <div class="logo">
+                    <a href="./index.html"><img src="./images/RapportStage-logo.png" alt="blacklogois" id="blacklogois" width="180px"><img src="./images/whiteislogo.png" alt="whitelogois" id="whitelogois" width="180px"></a>
+                </div>
+                <!-- Menu sur le coté -->
+                <ul class="nav">
+                    <li><a href="index.html" type="button"><i class="fas fa-hand-paper"></i> HELLO</a></li>
+                    <li><a href="outils.html" type="button"><i class="fas fa-id-card"></i> WHO</a></li>
+                    <li><a href="blog.html" class="active" type="button"><i class="fas fa-briefcase"></i> WHAT</a></li>
+                    <li><a href="portfolio.html" type="button"><i class="fas fa-forward"></i> THEN</a></li>
+                    </li>
+                </ul>
+                <!-- Copyright -->
+                <div class="copyright-text" style="color: white;">
+                    2020, Philippe TANKOV
+                </div>
+            </div>
+        </div>
+        <!-- Menu sur le côté END -->
+       
+        <!-- Contenu Pinricpal START -->
+        <div class="main-content">
+
+            <!-- WHAT PAGE / Item 6 END -->
+            <section class="about section" id="wp">
+                <div class="container">
+                    <div class="row">
+                        <!-- Titre -->
+                        <div class="section-title padd-15">
+                            <h2><i class="fas fa-angle-right" style="color: #F4B41A;"></i> WORDPRESS</h2>
+                            <br />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <!-- Item contenu -->
+                                <div class="about-text padd-15">
+                                    <p>
+                                        <i class="fas fa-caret-right"></i> WordPress est le service utilisé pour le processus de vente des modules (soit un Shop e-commerce, ayant l'adresse shop.insightsolutions.ch).
+                                    </p>
+                                    <br />
+                                    <p>
+                                        <i class="fas fa-caret-right"></i> Mon travail sur le projet WordPress consistait à modifier via CSS les pages du Shop de chaque module, afin d'y retrouver la même identité graphique que sur le site-web d'Insight Solutions.
+                                        Le client doit sentir qu'il est sur le même site, et qu'il n'a pas changé de domaine.
+                                    </p>
+                                    <br />
+                                    <a href="blog.html"><i class="fas fa-arrow-alt-circle-left" style="display: block;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- WHAT PAGE / Item 6 END -->
+        </div>
+        <!-- Conteneur Principal END -->
+
+        <!-- Transition menu vers page START -->
+        <div class="lightbox">
+            <div class="lightbox-content">
+                <div class="lightbox-close">&times;</div>
+
+                <div class="lightbox-caption">
+                    <div class="caption-text"></div>
+                    <div class="caption-counter"></div>
+                </div>
+            </div>
+            <div class="lightbox-controls">
+                <div class="prev-item" onclick="prevItem()"><i class="fa fa-angle-left"></i></div>
+                <div class="next-item" onclick="nextItem()"><i class="fa fa-angle-right"></i></div>
+            </div>
+        </div>
+        <!-- Transition menu vers page END -->
+
+
+        <!-- Script START -->
+        <script>
+            window.scrollTo(0, 0);
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+        <script src="js/script.js"></script> <!-- Permet le bon fonctionnement entre les pages -->
+
+        <script src="js/styleSwitcher.js"></script>
+
+        <!-- Script END -->
+
+
+</body>
+
+</html>
